@@ -9,21 +9,24 @@ function Users() {
     const usersitem = useContext(usersContext);
   return (
     <>
+      <div className="cards-item">
+
     {usersitem.map((item)=>{
       return (
         <div className="card "key={item.id}>
     
-       <img
-       src={item.image}
-       alt={item.name}
-       className="img-user"
-       />
-       <h3>{item.name}</h3>
-       <h4>{item.title}</h4>
-       </div>
-
+          <img
+           src={item.image}
+           alt={item.name}
+            className="img-user"
+          />
+          <h3>{item.name}</h3>
+          <h4>{item.title}</h4>
+        </div>
       );
     })}
+      </div>
+
             
     </>
   );
