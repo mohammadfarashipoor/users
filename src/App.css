@@ -38,7 +38,7 @@
         height: 28vh;
         border-radius: 50%;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1000px) {
     .cards-item{
         flex-direction: column;
 }
