@@ -16,6 +16,13 @@
     padding:20px;
     border-radius: 8px;
 }
+.search-box{
+    display: block;
+    border: 3px solid gray;
+    border-radius: 9px;
+    padding: 4px;
+    margin: 20px;
+}
 .cards-item{
     display: flex;
     flex-direction: row;

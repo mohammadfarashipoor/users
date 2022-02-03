@@ -14,7 +14,7 @@ function Users() {
   return (
     <>
     <div className="search-box">
-      <input type="text" onChange={onchange}/>
+      <input type="text" onChange={onchange} placeholder="Search..."/>
     </div>
       <div className="cards-item">
         {filtereduser.map((item)=>{
